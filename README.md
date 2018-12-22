@@ -7,13 +7,15 @@ Paper: [here](https://arxiv.org/abs/1609.04802)
 
 ![SRGAN](./result.jpg)
 
-left image size: 64x64(I got this image from my implementation of [DRAGAN-keras](https://github.com/jjonak09/DRAGAN-keras))
+Left image size: 64x64(I got this image from my implementation of [DRAGAN-keras](https://github.com/jjonak09/DRAGAN-keras))
 
-center image size: 256x256(super resolution)
+Center image size: 256x256(SRGAN result)
 
-right image size: 256x256 (Bicubic補間)
+Right image size: 256x256 (Bicubic補間)
 
-Bicubic補間より綺麗に拡大できているが、色がくすんだ感じになっている。次はESRGANに手を出してみる。
+- Batch size: 4
+- This is 60000epochs (It takes 23 hours to get this result with GTX 1060)
+
 ## Environment
 - OS: Windows 10
 - CPU: Intel(R) Core(TM)i7-8700
