@@ -13,7 +13,9 @@ center image size: 256x256(super resolution)
 
 right image size: 256x256 (Bicubic補間)
 
-Bicubic補間より綺麗に拡大できているが、色がくすんだ感じになっている。次はESRGANに手を出してみる。
+- Batch size: 4
+- This is 60000epochs (It takes 23 hours to get this result with GTX 1060)
+
 ## Environment
 - OS: Windows 10
 - CPU: Intel(R) Core(TM)i7-8700
