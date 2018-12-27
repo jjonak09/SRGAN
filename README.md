@@ -9,6 +9,7 @@ Paper: [here](https://arxiv.org/abs/1609.04802)
 
 ![SRGAN](./result1.jpg)
 
+![SRGAN](./result3.jpg)
 
 Left image size: 64x64(I got this image from my implementation of [DRAGAN-keras](https://github.com/jjonak09/DRAGAN-keras))
 
