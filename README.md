@@ -7,6 +7,9 @@ Paper: [here](https://arxiv.org/abs/1609.04802)
 
 ![SRGAN](./result.jpg)
 
+![SRGAN](./result1.jpg)
+
+
 Left image size: 64x64(I got this image from my implementation of [DRAGAN-keras](https://github.com/jjonak09/DRAGAN-keras))
 
 Center image size: 256x256(SRGAN result)
@@ -15,6 +18,8 @@ Right image size: 256x256 (Bicubic補間)
 
 - Batch size: 4
 - This is 60000epochs (It takes 23 hours to get this result with GTX 1060)
+
+SRGANでの画像がくすんでいるのはVGG19の中間層の出力を活性化関数の後に行っているからなのでしょうかね
 
 ## Environment
 - OS: Windows 10
