@@ -3,6 +3,8 @@ Implementation of SRGAN(Photo-Realistic Single Image Super-Resolution Using a Ge
 
 Paper: [here](https://arxiv.org/abs/1609.04802)
 
+![network](./network.png)
+
 # Result
 
 ![SRGAN](./result.jpg)
