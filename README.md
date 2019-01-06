@@ -7,7 +7,7 @@ Paper: [here](https://arxiv.org/abs/1609.04802)
 
 # Result
 
-![SRGAN](./image/resul1.jpg)
+![SRGAN](./image/result1.jpg)
 
 ![SRGAN](./image/result2.jpg)
 
